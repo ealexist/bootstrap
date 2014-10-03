@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/css/app.css">
+
+  </head>
+  <body>
+
+	<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+		<div class="container-fluid">
+
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#objetivo">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a class="navbar-brand logo"href="#">Home</a>
+			<form class="navbar-form navbar-right" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Buscar">
+					<button type="submit" class="btn btn-info">Go</button>
+				</div>
+			</form>
+
+			<div class="collapse navbar-collapse" id="objetivo">
+
+				<ul class="nav navbar-nav items-menu">
+					<li><a href="#">Item</a></li>
+					<li><a href="#">Item</a></li>
+					<li><a href="#">Item</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="col-md-12">
+		<div id="slide" class="carousel slide phone" data-ride="carousel">
+
+			<ol class="carousel-indicators">
+				<li data-target="#slide" data-slide-to="0" class="active"></li>
+				<li data-target="#slide" data-slide-to="1"></li>
+				<li data-target="#slide" data-slide-to="2"></li>
+				<li data-target="#slide" data-slide-to="3"></li>
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="assets/img/1.jpg" alt="">
+					<div class="carousel-caption">
+						---------Titulo----------
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="assets/img/header.jpg" alt="">
+					<div class="carousel-caption">
+						-------2--------
+					</div>
+				</div>
+				<div class="item">
+					<img src="assets/img/origami-azul.png" alt="">
+					<div class="carousel-caption">
+						--------3-------
+					</div>
+				</div>
+				<div class="item">
+					<img src="assets/img/origami-blanco.png" alt="">
+					<div class="carousel-caption">
+						--------4-------
+					</div>
+				</div>
+			</div>
+
+			<!--============= Slide ===========-->
+
+			<a href="#slide" class="left carousel-control" role="button" data-slide="prev" >
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+
+			<a href="#slide" class="right carousel-control" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+
+		</div>
+	</div>
+
+	<section class="container margen">
+
+		<div class="row col-md-12">
+					<div class="col-md-3">
+
+			<ul class="nav nav-pills nav-stacked margen" role="tablist">
+				<li class="active"><a href="#art1" role="tab" data-toggle="tab">Articu1</a></li>
+				<li><a href="#art2" role="tab" data-toggle="tab">Articu2</a></li>
+				<li><a href="#art3" role="tab" data-toggle="tab">Articu3</a></li>
+				<li><a href="#art4" role="tab" data-toggle="tab">Articu4</a></li>
+			</ul>
+
+		</div>
+
+		<div class="col-md-9 ">
+		<div class="tab-content">
+			<div class="tab-pane active" id="art1">
+				<div class="col-md-9 margen">
+					<div class="embed-responsive embed-responsive-16by9"  >
+						<object class="embed-responsive-item" data="https://www.youtube.com/v/watch?v=9Q7Vr3yQYWQ"></object>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane " id="art2">
+				<div class="art-margen">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae consequatur quis, aut eveniet qui cupiditate similique, atque sapiente eum maxime doloribus quibusdam culpa blanditiis debitis expedita doloremque reprehenderit, facere nisi!
+
+					</p>
+				</div>
+
+			</div>
+			<div class="tab-pane art-margen" id="art3">
+				<div class="art-margen">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, dolor cupiditate, ratione nemo nobis incidunt quasi atque earum. Reprehenderit dignissimos quo ratione omnis ullam rem quaerat dolorem, molestiae debitis laboriosam.</p>
+				</div>
+			</div>
+			<div class="tab-pane" id="art4">
+				<div class="art-margen">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptate beatae molestiae provident neque, eum similique quia fugiat suscipit. Tenetur obcaecati modi minus, enim ipsum soluta totam corporis explicabo dicta.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+	</section>
+
+	<footer class="fd margen">
+		<div class="col-md-12">
+			<h2>Footer</h2>
+			<hr>
+		</div>
+
+		<div class="col-md-4">
+			<h3>Titulo1</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, impedit quibusdam assumenda nesciunt consectetur veniam, ipsam culpa optio tempora asperiores fugit dolor dolorum quis aperiam obcaecati doloribus temporibus aspernatur. Quos.
+			</p>
+		</div>
+
+		<div class="col-md-4">
+			<h3>Titulo2</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus obcaecati vitae animi, iure. Quaerat officiis deserunt iure facere dolorum doloribus velit dolores ad beatae, doloremque pariatur rem corrupti, molestiae, exercitationem.
+			</p>
+		</div>
+
+		<div class="col-md-4">
+			<h3 >Titulo3</h3>
+			<p >
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vel, eius ipsam laborum placeat facere eligendi quaerat illum quas non, repellendus nulla! Vel repellendus eius nostrum optio tempora quibusdam. Unde!
+			</p>
+		</div>
+	</footer>
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+
+
+
+	<script>
+		$(document).ready(function(){
+			$(".mostrar").click(function(){
+				var text=$(this).attr("alt");
+				$("#oculto"+text).toggle();
+			});
+		});
+
+
+	</script>
+
+
+  </body>
+</html>
